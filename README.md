@@ -228,7 +228,7 @@ The front-end will typically run on port 3000, the back-end on port 8000, and th
 > **Note**  
 > This project involves three separate deployments—Client (Frontend), Backend (Server), and Model.  
 > To simplify the deployment process, we’ve created three different repositories for them.  
-> However, this main repository contains **all the code** (client, server, and model) in one place for development purposes.
+> However, this main repository contains **all the code** (client, server, and model) in one place.
 
 ### 🔗 Deployment Repositories
 - **Client (Frontend Deployment):** [PitchNova Frontend](https://github.com/DhruvPansuriya/PitchNova)  
