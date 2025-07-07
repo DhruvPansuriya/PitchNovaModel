@@ -17,7 +17,7 @@ pygame
 
 # Whisper-based speech recognition
 faster-whisper
-ctranslate2==3.24.0
+ctranslate2>=3.24.0,<4.0.0
 
 # Async + utilities
 asyncio
@@ -27,5 +27,5 @@ websockets
 # Optional: if you're using Anthropic Claude models
 anthropic==0.21.0
 
-# Add gunicorn here
+# Production WSGI server
 gunicorn
