@@ -720,6 +720,9 @@ def event():
 #         logger.error(f"Error generating summary: {str(e)}")
 #         return jsonify({"error": "Failed to generate summary", "details": str(e)}), 500
 
+@app.route('/')
+def home():
+    return 'PitchNovaModal server is running!'
 
 if __name__ == '__main__':
     print("DEBUG: Starting Flask server on port 8080", flush=True)
