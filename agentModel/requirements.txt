@@ -17,7 +17,7 @@ pygame
 
 # Whisper-based speech recognition
 faster-whisper
-ctranslate2>=3.24.0,<4.0.0
+ctranslate2>=3.24.0,<4.7.0
 
 # Async + utilities
 asyncio
