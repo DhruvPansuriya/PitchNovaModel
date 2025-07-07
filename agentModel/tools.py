@@ -3,6 +3,8 @@ import json
 # from google import genai
 from groq import Groq
 
+from config import Config #newly added
+
 tools_info = {
     # "calc_disc": {
     #     "name": "calc_disc",
@@ -74,7 +76,7 @@ tools_info = {
 
 def summariser(message_history, call_sid):
     print('Summarising the call...')
-    gclient3 = Groq(api_key='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')
+    gclient3 = Groq(api_key=Config.GROQ_API_KEY)
     
     # Properly format the messages parameter as an array of message objects
     messages = [
