@@ -142,7 +142,7 @@ This comprehensive solution provides critical business intelligence to optimize 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/PitchNova.git
+git clone https://github.com/DhruvPansuriya/PitchNova.git
 cd PitchNova
 ```
 
